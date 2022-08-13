@@ -1,0 +1,13 @@
+
+.classa {
+    background-color: black;
+    color: white;
+}
+.classb {
+    background-color: yellow;
+}
+.classa,
+.classb {
+    font-size: 28px;
+    font-style: 'Helvica' 'Times New Roman', 'sans-serif';
+}
