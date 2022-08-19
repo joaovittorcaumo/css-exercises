@@ -11,22 +11,28 @@ body {
   color: #333;
   /* I'll give you this one for free lol */
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: center;
 }
 .top{
   display: flex;
   align-content: space-between;
   gap: 16px;
+  justify-content: flex-start;
 }
 .header{
+  display: flex;
   flex-grow: 1;
+  align-items: center;
+  justify-content: left;
 }
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 40px;
+  margin: 0px;
 }
 
 .icon {
